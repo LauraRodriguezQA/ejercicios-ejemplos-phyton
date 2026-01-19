@@ -17,8 +17,7 @@ print ("duracion en minutos", duracion)
 print ("tiene premios?", tiene_premios)
 
 #Cambiar variables a ingles
-#Cadena
-movie = "Monster Inc"
+pelicula = "Monster Inc"
 director = "Pete Docter"
 #Numeros (int)
 año_lanzamiento = 2001
@@ -29,9 +28,9 @@ tiene_premios = True
 
 # Mostrar datos de la película en inglés
 print("\nPelícula favorita (en inglés):")
-print("Movie:", Monster Inc)
+print("Movie:", pelicula)
 print("Director:", director)
-print("Year of release:", año)
+print("Year of release:", 2001)
 print("Genre:", genero)
 print("Duration (minutes):", duracion)
 print("Has awards?:", tiene_premios)
