@@ -1,7 +1,7 @@
 #Precios
-precio_camiseta: 10
-precio_sudadera: 20.5
-precio_gorra: 5.5
+precio_camiseta = 10.0
+precio_sudadera = 20.5
+precio_gorra = 5.5
 iva = 0.21  #IVA del 21%
 
 #Pedir cantidades al usuario
