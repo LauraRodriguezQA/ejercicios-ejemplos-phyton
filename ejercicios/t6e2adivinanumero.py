@@ -8,7 +8,7 @@ def adivinar_numero(numero):
     if numero == numero_ganador:
      mensaje = "¡Haz ganado! El numero es el correcto."
     else:
-       mensaje = "Lo siento, perdiste. El numero correcto era el 4."
+       mensaje = f"Lo siento, perdiste. El numero correcto era el {numero_ganador}"
        
        return mensaje 
     
