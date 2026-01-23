@@ -1,17 +1,21 @@
-def calcular_nota_media ():
+def calcular_nota_media():
+    #Pedimos cuántas notas va a introducir
+    numero_notas = int(input("¿Cuántas notas desea introducir? "))
 
-numero_notas= int(input("Cuantas notas desea introducir?"))
-#Repetimos el nimero de veces que ha indicado
+    #Inicializamos la suma
+    suma = 0
 
-for i in range(numero_notas):
-    nota= float(input("Introduce la nota"))
+    #Pedimos cada nota y la sumamos
+    for i in range(numero_notas):
+        nota = float(input("Introduce la nota: "))
+        suma += nota
 
-#Sumamos al total 
-suma += nota
+    #Calculamos la media
+    nota_media = suma / numero_notas
 
-#Calculamos la media, que es igual a la suma total, entre el numero de notas introducida
-nota_media = suma/numero_notas
+    #Mostramos el resultado
+    print("La nota media es:", nota_media)
 
-print("Nota media es: ", nota_media)
 
+#Ejecutamos la función
 calcular_nota_media()
